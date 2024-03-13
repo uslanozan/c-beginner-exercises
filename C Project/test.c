@@ -18,6 +18,7 @@ int main(void){
     //* %f: Ondalýk sayýlarý (float veya double) yazdýrmak için.
     //* %c: Karakterleri yazdýrmak için (char).
     //* %s: Karakter dizilerini (string) yazdýrmak için.
+    //* %p: Pointer için yani hafýzadaki memory address'ini yazdýrýr.
 
     /*
     int c;
