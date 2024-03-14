@@ -8,6 +8,7 @@ int main(void){
     //*
     //!
 
+    //! caps+alt ile o satırı taşır
     //! ctrl+alt+m    çalışan kodu durdurur  ????  aynı zamanda ctrl+c de durdurur terminalde
     //! ctrl+alt+n    runlar
     //! ctl+l         terminali temizler
