@@ -8,6 +8,9 @@ int main(void){
     //*
     //!
 
+    //? mainde execute olur ve en sondaki return 0; aslýnda kodun oraya kadar hatasýz çalýþtýðýný belirtir
+    //? return 0 hariç her þey hatalý sinyalini verir
+
     //! caps+alt ile o satýrý taþýr
     //! ctrl+alt+m    çalýþan kodu durdurur  ????  ayný zamanda ctrl+c de durdurur terminalde
     //! ctrl+alt+n    runlar
@@ -21,6 +24,12 @@ int main(void){
     //* %s: Karakter dizilerini (string) yazdýrmak için.
     //* %p: Pointer için yani hafýzadaki memory address'ini yazdýrýr.
 
+    //? C'de string olayý bir týk farklý
+
+
+    char myText[]="Hello\n";
+    printf("%s",myText);
+
     /*
     int c;
     printf("sayý gir: \n");
@@ -31,10 +40,23 @@ int main(void){
     */
     
     // Türkçe karakter içeren bir string
-    const char *turkceMetin = "Merhaba, Dünya! Türkçe karakter: çðýöþü";
+    char *turkceMetin = "Merhaba, Dünya! Türkçe karakter: çðýöþü";
 
     // UTF-8 karakter setini kullanarak ekrana yazdýrma
     printf("%s\n", turkceMetin);
+
+    float my_float = 42.8f;
+    printf("%d",(int)my_float);
+
+    char buffer[100];
+//    printf("Enter: ");
+//    scanf("%s,buffer");
+//    printf("Buffer: %s\n",buffer);
+
+    //? boþluk býrakarak input almaya yarar
+    printf("Enter: ");
+    fgets(buffer,100,stdin);  //* standart input,
+    printf("Buffer: %s\n",buffer);
 
     return 0;
 

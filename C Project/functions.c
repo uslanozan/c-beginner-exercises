@@ -10,7 +10,7 @@ int find_max(int a,int b){  //? baþtaki int,fonksiyonun döndüreceði türü belirle
 
 //! Çok fazla bu þekilde fonksiyon tanýmlarsak bir süre sonra main'in çok aþaðýda kalýr
 //! Ve bu bazý sorunlara yol açabilir. Bu yüzden fonksiyon oluþturulurken genelde 2 bölüme ayýrýlýr
-//! Üst tarafa fonksiyonun tanýmýný (Definition) yapýp, altta içi doldurulur
+//! Üst tarafa fonksiyonun beyanýný (Declaration) yapýp, altta içi doldurulur (Definition)
 
 int find_min(int a,int b);
 double add(double x,double y);
