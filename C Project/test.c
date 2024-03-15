@@ -58,6 +58,12 @@ int main(void){
     fgets(buffer,100,stdin);  //* standart input,
     printf("Buffer: %s\n",buffer);
 
+    float test1=4.2;
+    float test2=4.2f;
+
+    printf("%.6f\n",test1);
+    printf("%.6f",test2);
+
     return 0;
 
 
